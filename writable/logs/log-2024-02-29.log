@@ -1,0 +1,10 @@
+CRITICAL - 2024-02-29 00:32:34 --> Invalid file: edit_profile.php
+#0 C:\xampp\htdocs\ukk_christianporang\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_profile.ph...')
+#1 C:\xampp\htdocs\ukk_christianporang\system\Common.php(1089): CodeIgniter\View\View->render('edit_profile', Array, true)
+#2 C:\xampp\htdocs\ukk_christianporang\app\Controllers\acc.php(43): view('edit_profile', Array)
+#3 C:\xampp\htdocs\ukk_christianporang\system\CodeIgniter.php(832): App\Controllers\acc->edit_profile()
+#4 C:\xampp\htdocs\ukk_christianporang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\acc))
+#5 C:\xampp\htdocs\ukk_christianporang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ukk_christianporang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ukk_christianporang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
